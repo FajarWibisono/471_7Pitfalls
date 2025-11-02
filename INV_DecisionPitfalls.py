@@ -221,4 +221,22 @@ if submit:
         conn.commit()
         st.success("Hasil telah disimpan.")
 
+
 conn.close()
+
+# Sembunyikan tombol Fork & GitHub di Streamlit Cloud
+st.markdown(
+    """
+    <style>
+        /* Sembunyikan tombol Fork dan ikon GitHub */
+        .stApp [data-testid="stHeader"] {
+            display: none !important;
+        }
+        /* Jika ingin sembunyikan juga menu 3 titik (More options) */
+        .stApp [data-testid="stToolbar"] {
+            display: none !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
