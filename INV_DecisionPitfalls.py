@@ -162,7 +162,7 @@ Pernyataan: "Saya suka makan nasi."
 Jika Anda sangat setuju, pilih 'Sangat Setuju'.
 
 Isi dengan jujur. Tidak ada jawaban benar atau salah. 
-Waktu pengerjaan sekitar 10-15 menit.
+Waktu pengerjaan sekitar 7 - 10  menit.
 """)
 
 # Form
@@ -240,3 +240,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
